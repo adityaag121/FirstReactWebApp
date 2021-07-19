@@ -12,6 +12,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.input-form {
+  max-width: fit-content;
+  text-align: center;
+  position: relative;
+}
+
 
 .App-header {
   background-color: #282c34;

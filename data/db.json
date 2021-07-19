@@ -1,0 +1,88 @@
+{
+  "posts": [
+    {
+      "title": "YES",
+      "username": "hhh",
+      "content": "lorem",
+      "id": 1
+    },
+    {
+      "title": "YESYes",
+      "username": "sfe",
+      "content": "ipsum",
+      "id": 2
+    },
+    {
+      "title": "No",
+      "username": "fs",
+      "content": "sdfsfeeeasfsefssesf",
+      "id": 3
+    },
+    {
+      "title": "HELO",
+      "content": "hi",
+      "username": "",
+      "id": 4
+    },
+    {
+      "title": "HELOkaran.com",
+      "content": "hi",
+      "username": "",
+      "id": 5
+    },
+    {
+      "title": "dfsdf",
+      "content": "5253253532",
+      "username": "",
+      "id": 6
+    },
+    {
+      "title": "dfsdf",
+      "content": "5253253532",
+      "username": "",
+      "id": 7
+    },
+    {
+      "title": "dfsdferwer55235443",
+      "content": "5253253532",
+      "username": "",
+      "id": 8
+    },
+    {
+      "title": "dfsdferwer55235443",
+      "content": "5253253532",
+      "username": "",
+      "id": 9
+    },
+    {
+      "title": "dfsdferwer55235443",
+      "content": "5253253532",
+      "username": "",
+      "id": 10
+    },
+    {
+      "title": "dfsdferwer55235443",
+      "content": "5253253532",
+      "username": "",
+      "id": 11
+    },
+    {
+      "title": "dfsdferwer55235443",
+      "content": "5253253532",
+      "username": "",
+      "id": 12
+    },
+    {
+      "title": "dfsdferwer55235443",
+      "content": "5253253532",
+      "username": "",
+      "id": 13
+    },
+    {
+      "title": "dfsdferwer55235443",
+      "content": "5253253532",
+      "username": "",
+      "id": 14
+    }
+  ]
+}
