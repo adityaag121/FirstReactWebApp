@@ -24,7 +24,7 @@ export const AddPost = (props) => {
       body: JSON.stringify(pasta),
     }).then((res) => {
       console.log("posted");
-      
+      props.useFetchh();
     });
 
   };

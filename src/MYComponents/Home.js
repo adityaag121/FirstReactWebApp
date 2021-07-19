@@ -6,28 +6,30 @@ import { AddPost } from "./AddPost";
 
 export const Home = () => {
   const {
+    fetchFunc,
     data: posts,
     isPending,
     error,
   } = useFetch("http://localhost:8000/posts");
 
-  const [updated, setUpdated] = useState(0);
-  var updateUI = () => {
-    setUpdated(!updated);
-  }
+  
+  //const [updated, setUpdated] = useState(0);
+  // var updateUI = () => {
+  //   setUpdated(!updated);
+  // }
 
-  const [Post, setPost] = useState(null);
-  useEffect(()=>{
-    setPost(posts);
-  },[updated]);
+  fetchFunc();
+  // const [Post, setPost] = useState(null);
+  
   
   console.log("post is ",posts);
   return (
     <>
       <div>
-        <AddPost updateUI = {() => updateUI()}/>
+        <AddPost  useFetchh= {() => fetchFunc()}/>
       </div>
-      <div>{posts && <PostFeed Posts={posts} />}</div>
+      <div>{posts && <PostFeed Posts={posts}/>}
+      </div>
     </>
   );
 };
