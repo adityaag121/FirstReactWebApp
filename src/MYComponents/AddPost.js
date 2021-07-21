@@ -23,8 +23,7 @@ export const AddPost = (props) => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(pasta),
     }).then((res) => {
-      console.log("posted");
-      props.useFetchh();
+      props.updateUI();
     });
 
   };

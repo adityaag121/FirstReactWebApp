@@ -13,23 +13,22 @@ export const Home = () => {
   } = useFetch("http://localhost:8000/posts");
 
   
-  //const [updated, setUpdated] = useState(0);
-  // var updateUI = () => {
-  //   setUpdated(!updated);
-  // }
+  const [updated, setUpdated] = useState(0);
+  var updateUI = () => {
+      setUpdated(!updated);
+  };
 
-  fetchFunc();
-  // const [Post, setPost] = useState(null);
-  
-  
-  console.log("post is ",posts);
+  useEffect(() => {
+      fetchFunc();
+  }, [updated]);
+
+  console.log("post is ", posts);
   return (
-    <>
-      <div>
-        <AddPost  useFetchh= {() => fetchFunc()}/>
-      </div>
-      <div>{posts && <PostFeed Posts={posts}/>}
-      </div>
-    </>
+      <>
+          <div>
+              <AddPost updateUI={updateUI} />
+          </div>
+          <div>{posts && <PostFeed Posts={posts} />}</div>
+      </>
   );
 };
